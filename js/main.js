@@ -1,12 +1,10 @@
 //бургер меню
 const iconMenu = document.querySelector('.menu-icon');
-if (iconMenu){
+if (iconMenu) {
     const menu = document.querySelector('.menu');
-    iconMenu.addEventListener("click", function(e){
- 
+    iconMenu.addEventListener("click", function(e) {
+
         menu.classList.toggle('_active');
 
     });
-
 }
-
